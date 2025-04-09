@@ -1,0 +1,52 @@
+.chess-board{
+    background-color:antiquewhite;    
+}
+
+.game-info {
+    color: dimgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+.status-message {
+    color: dim;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.error-message {
+    color: #ff0000;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    animation: fadeIn 0.3s ease-in;
+}
+
+
+.board-container {
+    margin-bottom: 40px;
+}
+.reset-button {
+    margin-top: 100px;
+    background-color: dimgrey;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+ 
+.reset-button:hover {
+    background-color:crimson;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+  
