@@ -4,18 +4,20 @@
 
 .game-info {
     color: dimgray;
+    font-weight: bold;
+    font-size: 100;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 .status-message {
-    color: dim;
+    /* color: dim; */
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0;
 }
 .error-message {
-    color: #ff0000;
+    /* color: #ff0000; */
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
@@ -26,8 +28,9 @@
 
 .board-container {
     margin-bottom: 40px;
+    
 }
-.reset-button {
+button {
     margin-top: 100px;
     background-color: dimgrey;
     border: none;
@@ -41,7 +44,16 @@
     cursor: pointer;
     border-radius: 4px;
 }
- 
+
+.playerai-button:hover {
+    background-color:black;
+}
+.playerhuman-button:hover {
+    background-color:lightblue;
+}
+.changeai-button:hover {
+    background-color:lightskyblue;
+}
 .reset-button:hover {
     background-color:crimson;
 }
