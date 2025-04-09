@@ -13,7 +13,7 @@ function App() {
         <ChessBoard />
       </main>
       <footer>
-        <p>Created for BharatX Tech Intern Task By ❤️</p>
+        <p>Created for BharatX Tech Intern Task with ❤️</p>
       </footer>
     </div>
   );
